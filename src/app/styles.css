@@ -64,14 +64,14 @@ h1 {
 }
 
 .cell {
-  width: clamp(40px, 12vw, 62px);
-  height: clamp(40px, 12vw, 62px);
+  width: clamp(48px, 13vw, 62px);
+  height: clamp(48px, 13vw, 62px);
   border: 2px solid #3a3a3c;
-  margin: 2px;
+  margin: 3px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: clamp(1rem, 4vw, 2rem);
+  font-size: clamp(1.25rem, 5vw, 2rem);
   font-weight: bold;
   text-transform: uppercase;
   position: relative;
@@ -191,11 +191,11 @@ h1 {
 }
 
 .keyboard-key {
-  min-width: clamp(28px, 8vw, 43px);
-  height: clamp(40px, 10vw, 58px);
-  margin: 0 2px;
-  padding: 0 5px;
-  font-size: clamp(10px, 2.5vw, 14px);
+  min-width: clamp(32px, 9vw, 43px);
+  height: clamp(52px, 12vw, 58px);
+  margin: 0 3px;
+  padding: 0 6px;
+  font-size: clamp(13px, 3.5vw, 14px);
   font-weight: bold;
   text-align: center;
   text-transform: uppercase;
@@ -212,7 +212,7 @@ h1 {
 }
 
 .keyboard-key.wide {
-  min-width: clamp(42px, 12vw, 65px);
+  min-width: clamp(52px, 14vw, 65px);
 }
 
 .keyboard-key:hover {
@@ -233,13 +233,13 @@ h1 {
 
 @media (max-width: 350px) {
   .keyboard-key {
-    min-width: 24px;
-    height: 36px;
-    font-size: 10px;
-    padding: 0 2px;
+    min-width: 28px;
+    height: 44px;
+    font-size: 12px;
+    padding: 0 3px;
   }
 
   .keyboard-key.wide {
-    min-width: 36px;
+    min-width: 44px;
   }
 }
